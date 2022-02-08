@@ -24,15 +24,18 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Main-chart {
+  margin: 100px 0;
+}
+
+.Main-calender {
+  width: 940px;
+  margin: 0 0 100px 40px;
 }

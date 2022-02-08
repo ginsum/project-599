@@ -23,17 +23,17 @@ const MainCalendar = (props) => {
     {
       start: new Date('2022-02-06'),
       end: new Date('2022-02-06'),
-      title: '줄넘기 마스터 6141',
+      title: '마스터 6141',
     },
     {
       start: new Date('2022-02-07'),
       end: new Date('2022-02-07'),
-      title: '줄넘기 마스터 6213',
+      title: '마스터 6213',
     },
     {
       start: new Date('2022-02-08'),
       end: new Date('2022-02-08'),
-      title: '줄넘기 마스터 5394',
+      title: '마스터 5394',
     },
     {
       start: new Date('2022-02-08'),
@@ -42,17 +42,15 @@ const MainCalendar = (props) => {
     },
   ];
   return (
-    <div>
-      <Calendar
-        localizer={localizer}
-        defaultDate={new Date()}
-        events={events}
-        defaultView="month"
-        startAccessor="start"
-        endAccessor="end"
-        style={{ height: 500 }}
-      />
-    </div>
+    <Calendar
+      localizer={localizer}
+      defaultDate={new Date()}
+      events={events}
+      defaultView="month"
+      startAccessor="start"
+      endAccessor="end"
+      style={{ height: 500 }}
+    />
   );
 };
 
