@@ -4,7 +4,7 @@ const data = [
   { name: '2022-02-06', master: 6141, beginner: 0 },
   { name: '2022-02-07', master: 6213, beginner: 0 },
   { name: '2022-02-08', master: 5394, beginner: 599 },
-  { name: '2022-02-09' },
+  { name: '2022-02-09', master: 7571, beginner: 431 },
   { name: '2022-02-10' },
   { name: '2022-02-11' },
 ];
