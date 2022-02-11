@@ -50,6 +50,26 @@ const MainCalendar = (props) => {
       end: new Date('2022-02-09'),
       title: '초보자 431',
     },
+    {
+      start: new Date('2022-02-10'),
+      end: new Date('2022-02-10'),
+      title: '마스터 2358',
+    },
+    {
+      start: new Date('2022-02-10'),
+      end: new Date('2022-02-10'),
+      title: '초보자 602',
+    },
+    {
+      start: new Date('2022-02-11'),
+      end: new Date('2022-02-09'),
+      title: '마스터 5410',
+    },
+    {
+      start: new Date('2022-02-11'),
+      end: new Date('2022-02-11'),
+      title: '초보자 623',
+    },
   ];
   return (
     <Calendar

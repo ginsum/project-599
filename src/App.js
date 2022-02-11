@@ -19,9 +19,9 @@ function App() {
         <div className="Main-chart">
           <MainChart />
         </div>
-        <div className="Main-calender">
+        {/* <div className="Main-calender">
           <MainCalender />
-        </div>
+        </div> */}
       </div>
     </div>
   );
